@@ -1,3 +1,5 @@
+package Q1;
+
 import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
@@ -37,7 +39,6 @@ public class WorkerThread extends Thread {
 
             //housekeeping
             scanner.close();
-
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
